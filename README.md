@@ -25,6 +25,7 @@ pip install -r requirements.txt
 
 ### 2. Download the dataset
 Download `gym_members_exercise_tracking.csv` from [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset) and place it in `data/gym_members.csv`.
+#### An empty data folder must be created 
 
 ### 3. (Optional) Configure LLM API (Recommended)
 Set environment variables:
