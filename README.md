@@ -30,11 +30,7 @@ Download `gym_members_exercise_tracking.csv` from [Kaggle](https://www.kaggle.co
 mkdir data
 ```
 ### 3. (Optional) Configure LLM API (Recommended)
-Set environment variables:
-```bash
-# For Groq:
-export GROQ_API_KEY=my_key_here
-```
+Manually set a valid API key for Groq --> go to utils/llm_api.py at line 81 and place the key there under the api_key variable
 
 Without an API key, the app uses a mock plan for demo purposes. 
 (I recommend copy paste my personal API Key, which is in the moodle submission box).
