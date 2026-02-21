@@ -3,7 +3,7 @@ import os
 
 #CONFIGURATION
 #Set your preferred config  "groq" or "mock"
-LLM_PROVIDER = os.getenv("groq")  # Change to "mock" to sperimentate with mock data and don't want to consume API calls/Tokens
+LLM_PROVIDER ="groq"  # Change to "mock" to sperimentate with mock data and don't want to consume API calls/Tokens
 
 
 def generate_workout_plan(user_data: dict, cluster_info: dict) -> dict:
@@ -78,7 +78,7 @@ def _call_groq(prompt: str) -> dict:
     try:
         from groq import Groq
 
-        client = Groq(api_key=os.getenv("INSERT VALID KEY")) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        client = Groq(api_key="INSERT VALID KEY") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",  # or your preferred model
             messages=[{"role": "user", "content": prompt}],
