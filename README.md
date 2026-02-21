@@ -26,15 +26,16 @@ pip install -r requirements.txt
 ### 2. Download the dataset
 Download `gym_members_exercise_tracking.csv` from [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset) and place it in `data/gym_members.csv`.
 
-### 3. (Optional) Configure LLM API
+### 3. (Optional) Configure LLM API (Recommended)
 Set environment variables:
 ```bash
 # For Groq:
-export LLM_PROVIDER=groq
-export GROQ_API_KEY=your_key_here
+export GROQ_API_KEY=my_key_here
 ```
 
-Without an API key, the app uses a mock plan for demo purposes. (My personal API Key is in the moodle submission)
+Without an API key, the app uses a mock plan for demo purposes. 
+(I recommend copy paste my personal API Key, which is in the moodle submission box)
+If the user possesses a personal Groq key it can use it as well 
 
 ### 4. Run the app
 ```bash
