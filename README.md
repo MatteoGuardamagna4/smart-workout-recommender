@@ -34,8 +34,8 @@ export GROQ_API_KEY=my_key_here
 ```
 
 Without an API key, the app uses a mock plan for demo purposes. 
-(I recommend copy paste my personal API Key, which is in the moodle submission box)
-If the user possesses a personal Groq key it can use it as well 
+(I recommend copy paste my personal API Key, which is in the moodle submission box).
+If the user possesses a personal Groq key it can be used it as well. 
 
 ### 4. Run the app
 ```bash
