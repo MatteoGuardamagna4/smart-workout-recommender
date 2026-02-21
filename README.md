@@ -79,7 +79,7 @@ smart-workout-recommender/
 - `st.slider` — Age, frequency, duration
 - `st.multiselect` — Equipment selection
 - `st.expander` — Daily workout details
-- `fitness_radar` - Own widget, summary of statistic and comparison with users
+- `fitness_radar` — Own widget, summary of statistic and comparison with users
 - `st.metric` — Profile summary cards
 - `st.plotly_chart` — Interactive progress charts
 
