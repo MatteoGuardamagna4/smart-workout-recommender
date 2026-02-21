@@ -24,11 +24,13 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download the dataset
-Download `gym_members_exercise_tracking.csv` from [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset) and place it in `data/gym_members.csv`.
 #### An empty data folder must be created 
 ``` bash
 mkdir data
 ```
+Then download `gym_members_exercise_tracking.csv` from [Kaggle](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset) and place it in `data/gym_members.csv`.
+The file must be unzipped.
+
 ### 3. (Optional) Configure LLM API (Recommended)
 Manually set a valid API key for Groq --> go to utils/llm_api.py at line 81 and place the key there under the api_key variable
 
